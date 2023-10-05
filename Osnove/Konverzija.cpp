@@ -13,6 +13,10 @@ int main(){
 
     auto x = 3.14;
 
+    char x = 100;
+
+    std::cout << x << '\n'
+
     std::cout << x << '\n';
     return 0;
     
