@@ -17,6 +17,9 @@ int main(){
 
     std::cout << y << '\n';
 
+    std::cout<< (char) 100 << '\n'; // (char) znači da smo pridodjelili vrstu odmah pri ispisu ili deklaraciji
+                                    // U ovom slučaju prikazat će se 100ti znak iz tablice ('d').
+
     std::cout << x << '\n';
     return 0;
     
