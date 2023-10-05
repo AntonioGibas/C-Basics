@@ -6,18 +6,22 @@ int main(){
 
     int dob;
 
-    std::string ime, prezime;
-    std::cout<< "Unesi ime: ";
-    std::cin>> ime;
-    std::cout<< "Unesi prezime: ";
-    std::cin>> prezime;
+    std::string ime;
+    std::cout<< "Unesi ime i prezime: ";
+    //std::cin>> ime;
 
-    std::cout<< ime << ' ' << prezime;
+    std::getline(std::cin, ime);
+    std::cout<< ime;
 
-    std::cout<< "Dob: ";
+    std::cout<< "Unesi Dob: ";
     std::cin>> dob;
 
-    std::cout<< "Korisnik: " << ime << ' ' << prezime << ' ' << "Dob: " << dob;
+    std::cout<< "Korisnik: " << ime << ' ' << "Dob: " << dob;
+
+    // Ukoliko želimo da dio unosa sadrži razmake kao jedninični unos uz char 
+    // string onda koristimo funkciju std::getline(std::cin, var);
+
+    std::getline(std::cin, ime);
 
     return 0;
 }
