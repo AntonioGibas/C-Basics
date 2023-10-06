@@ -16,10 +16,15 @@ int main(){
     double z;
 
     //z = std::max(x, y); // provjera koji je broj veći od navedena 2.
+    //z = std::min(x, y); //provjera najmanjeg od 2 navedena.
+    //z = std::pow(2, 4); //prvi broj na drugi
+    //z = std::sqrt(9);   //korijen iz(broj)
+    //z = abs(-3);        // najbliži do nule
+    //z = round(x);       // zaokružuje decmalni broj
+    //z = ceil(x);        // Strop
+    //z = floor(x);       // Pod
 
-    z = std::min(x, y); //provjera jnajmanjeg od 2 navedena.
     std::cout<< z;
     
-
     return 0;
 }
