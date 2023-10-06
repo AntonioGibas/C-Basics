@@ -26,7 +26,7 @@ int main(){
 
     // primjer za Hipotenuzu pravog trokuta:
 
-    z = std::sqrt(std::pow(x,2) + std::pow(y,2));
+    z = std::sqrt(std::pow(x,2) + std::pow(y,2)); //sqrt funkcija prima samo jedan broj
 
     std::cout<< z;
     
