@@ -24,6 +24,10 @@ int main(){
     //z = ceil(x);        // Strop
     //z = floor(x);       // Pod
 
+    // primjer za Hipotenuzu pravog trokuta:
+
+    z = std::sqrt(std::pow(x,2) + std::pow(y,2));
+
     std::cout<< z;
     
     return 0;
