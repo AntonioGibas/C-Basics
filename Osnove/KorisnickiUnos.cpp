@@ -10,7 +10,8 @@ int main(){
     std::cout<< "Unesi ime i prezime: ";
     //std::cin>> ime;
 
-    std::getline(std::cin, ime);
+    // getline mora biti std::cin>> std::ws kako bi eliminirali sve prethodne razmake da ne ometaju input
+    std::getline(std::cin>> std::ws, ime);
     std::cout<< ime;
 
     std::cout<< "Unesi Dob: ";
