@@ -12,8 +12,10 @@ int main(){
 //        }     
 //    }
 
-    double x = 3, y = 4;
-    double z;
+    //double x = 3, y = 4;
+    //double z;
+
+    double a,b,c;
 
     //z = std::max(x, y); // provjera koji je broj veći od navedena 2.
     //z = std::min(x, y); //provjera najmanjeg od 2 navedena.
@@ -26,9 +28,20 @@ int main(){
 
     // primjer za Hipotenuzu pravog trokuta:
 
-    z = std::sqrt(std::pow(x,2) + std::pow(y,2)); //sqrt funkcija prima samo jedan broj
+    //z = std::sqrt(std::pow(x,2) + std::pow(y,2)); //sqrt funkcija prima samo jedan broj
 
-    std::cout<< z;
+    //std::cout<< z;
+
+    std::cout<< "Unesi a: " << '\n';
+    std::cin>> a;
+    std::cout<< "Unesi b: " << '\n';
+    std::cin>> b;
+
+    a = pow(a,2);
+    b = pow(b,2);
+    c = sqrt(a + b);
+
+    std::cout<< c;
     
     return 0;
 }
