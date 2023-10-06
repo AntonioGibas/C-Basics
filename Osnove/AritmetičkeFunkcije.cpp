@@ -15,8 +15,9 @@ int main(){
     double x = 3, y = 4;
     double z;
 
-    z = std::max(x, y); // provjera koji je broj veći od navedena 2.
+    //z = std::max(x, y); // provjera koji je broj veći od navedena 2.
 
+    z = std::min(x, y); //provjera jnajmanjeg od 2 navedena.
     std::cout<< z;
     
 
