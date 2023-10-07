@@ -5,9 +5,7 @@ int main(){
     char op;
     double num1, num2, res;
 
-    std::cout <<"************CALCULATOR************";
-
-    std:cout << "Unesi samo (+ - * /)";
+    std::cout<<"************CALCULATOR************" << '\n' << "Unesi samo (+ - * /)";
     std::cin>> op;
 
     std::cout<< "Unesi 1: ";
@@ -20,19 +18,19 @@ int main(){
 
         case '+':
             res = num1 + num2;
-            std::cout<<"Rješenje je: " << res;
+            std::cout<<"Rjesenje je: " << res;
             break;
         case '-':
             res = num1 - num2;
-            std::cout<<"Rješenje je: " << res;
+            std::cout<<"Rjesenje je: " << res;
             break;
         case '*':
             res = num1 * num2;
-            std::cout<<"Rješenje je: " << res;
+            std::cout<<"Rjesenje je: " << res;
             break;
         case '/':
             res = num1 / num2;
-            std::cout<<"Rješenje je: " << res;
+            std::cout<<"Rjesenje je: " << res;
             break;
         default:
             std::cout<< "Nepoznata operacija, unesi samo + - * /";
