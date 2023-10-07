@@ -46,6 +46,8 @@ int main(){
     case 12:
         std::cout<< "Prosinac";
         break;
+    default:
+    std::cout << "Unesi samo brojeve molim.";
    }
 
 
