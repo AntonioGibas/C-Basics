@@ -47,7 +47,7 @@ int main(){
         std::cout<< "Prosinac";
         break;
     default:
-    std::cout << "Unesi samo brojeve molim.";
+        std::cout << "Unesi samo brojeve molim.";
    }
 
 
