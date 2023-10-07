@@ -3,9 +3,9 @@
 int main(){
 
     char op;
-    double num1, num2, res;
+    double num1, num2, res1, res2;
 
-    std::cout<<"************CALCULATOR************" << '\n' << "Unesi samo (+ - * /)";
+    std::cout<<"************CALCULATOR************" << '\n' << "Unesi samo (+ - * / sqrt)";
     std::cin>> op;
 
     std::cout<< "Unesi 1: ";
@@ -17,23 +17,28 @@ int main(){
     switch(op){
 
         case '+':
-            res = num1 + num2;
-            std::cout<<"Rjesenje je: " << res;
+            res1 = num1 + num2;
+            std::cout<<"Rjesenje je: " << res1;
             break;
         case '-':
-            res = num1 - num2;
-            std::cout<<"Rjesenje je: " << res;
+            res1 = num1 - num2;
+            std::cout<<"Rjesenje je: " << res1;
             break;
         case '*':
-            res = num1 * num2;
-            std::cout<<"Rjesenje je: " << res;
+            res1 = num1 * num2;
+            std::cout<<"Rjesenje je: " << res1;
             break;
         case '/':
-            res = num1 / num2;
-            std::cout<<"Rjesenje je: " << res;
+            res1 = num1 / num2;
+            std::cout<<"Rjesenje je: " << res1;
             break;
+        case 's':
+            res1 = sqrt(num1);
+            res2 = sqrt(num2);
+            std::cout<<"Rjesenje1: " << res1 << '\n' << "Rjesenje2: " << res2;
+            break; 
         default:
-            std::cout<< "Nepoznata operacija, unesi samo + - * /";
+            std::cout<< "Nepoznata operacija, unesi samo + - * / sqrt";
             break;
     }
 
