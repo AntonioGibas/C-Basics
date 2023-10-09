@@ -12,22 +12,20 @@ int main(){
     for (brojac = 1; brojac <= uneseniBroj; brojac++){
 
         if (uneseniBroj % brojac == 0){
-
             flag = 0;
             break;
 
         }
-
     }
-
     if (flag = 1){
 
         std::cout<< "Uneseni broj je prost.";
 
     }
     else {
-        std::cout<< "Uneseni broj nije prost.";
-    }
 
+        std::cout<< "Uneseni broj nije prost.";
+        
+    }
     return 0;
 }
